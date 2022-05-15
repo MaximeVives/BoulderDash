@@ -10,7 +10,7 @@ class Player(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()
         self.position = [x, y]
         self.move_ticker = 0
-        self.speed = 16
+        self.speed = 1
         self.images = {
             'down': self.get_image(0, 64),
             'left': self.get_image(0, 16),
